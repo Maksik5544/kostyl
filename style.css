@@ -1,0 +1,222 @@
+
+body {
+    background: #5b5c5c3d;
+    margin: 0;
+}
+
+.img1 {
+    width: 150px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 150px;
+    margin: 0;
+}
+
+.img2 {
+    float: left;
+    margin-right: 20px; /* отступ между картинкой и текстом */
+    width: 115px;
+    padding-left: 450px;
+}
+
+
+
+div {
+    border: 0;
+    padding: auto;
+    margin: 0px;
+}
+
+.div1 {
+    overflow: hidden;
+    background: #007765;
+    color: white;
+    padding: 5px;
+}
+
+.div2 {
+    float: right;
+    font-size: 18px;
+    padding: 30px 270px 0 0;
+    margin: 0;
+}
+
+.div3 {
+    background-color: white;
+    background-image: url(imagegreen.png);
+    color: white;
+    background-size: cover;
+}
+
+.div4 {
+    background: white;
+    color: black;
+    height: 719px;
+    top: 487px;
+    gap: 0px;
+    opacity: 0px;
+    background-size: cover;
+
+}
+
+.div5 {
+    background-color: white;
+    background-image: url(imageblue.png);
+    color: white;
+    height: 400px;
+    background-size: cover;
+    padding: 70px;
+    text-align: center;
+}
+
+.div6 {
+    background: #EEEEEE;
+    color: black;
+    top: 487px;
+    gap: 0px;
+    opacity: 0px;
+    background-size: cover;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.member {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.role {
+    color: #666;
+}
+
+.avatar1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(image.png);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto 10px auto;
+}
+
+.avatar2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(image2.png);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto 10px auto;
+}
+
+.avatar3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(image3.png);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto 10px auto;
+}
+
+.avatar4{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(image4.png);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto 10px auto;
+}
+
+.avatar5 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(image5.png);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto 10px auto;
+}
+
+.avatar6 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(image6.png);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 auto 10px auto;
+}
+
+p {
+    font-size: 32px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.p1 {
+    font-size: 32px;
+    white-space: pre-wrap;
+    height: calc(4 * 1.2em);
+    margin: 0;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.p2 {
+    font-size: 32px;
+    white-space: pre-wrap;
+    margin: 0;
+}
+
+.p3 {
+    text-align: center;
+}
+.p4 {
+    font-size: 32px;
+    white-space: pre-wrap;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+.h11 {
+    text-align: center;
+    font-size: 71px;
+    padding-top: 220px;
+    padding-bottom: 220px;
+    margin: 0;
+}
+.h12 {
+    text-align: center;
+    font-size: 64px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(41, 39, 39);
+    color: white;
+    text-align: center;
+}
